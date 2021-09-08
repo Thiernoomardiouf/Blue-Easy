@@ -1,0 +1,467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+}
+
+/* HEADER */
+
+header {
+    background-image: url(media/section-hero.png);
+    margin-top: 0;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2:after {
+    content: "____";
+    display: block;
+    margin-top: -20px;
+}
+
+.nav_principal {
+    position: fixed;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_principal a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav_principal a:hover {
+    border: solid;
+    color: #4bcaff;
+    border-width: 1.5px;
+}
+
+.nav_principal ul {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav_principal ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.texte_header {
+    top : 300px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.paragraphe_fond_noir {
+    background: rgba(0,0,0,.6);;
+    padding: 10px;
+    width: 404px;
+    margin: auto;
+    font-size: 25px;
+}
+
+.paragraphe_fond_noir2 {
+    background: rgba(0,0,0,.6);
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 571px;
+    font-size: 25px;
+}
+
+/* FIN HEADER */
+
+/* SERVICES */
+
+.background_services {
+    background-color: #4bcaff;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    width: 68%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.services, .instant, .serious, .frame {
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+.container h2 {
+    color: white;
+    position: absolute;
+    top: 626px;
+    font-weight: lighter;
+}
+
+.container h3 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.p_coffee, .p_instant, .p_serious, .p_frame {
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* FIN SERVICES */
+
+/* PORTFOLIO */
+
+.images_all {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.images_all img {
+    width: 200px;
+    height: 200px;
+}
+
+.effet_transition {
+    transition: transform .2s;
+    padding: 10px;
+}
+
+.effet_transition:hover {
+    transform: scale(1.5)
+}
+
+.groupe_image {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.nav_portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav_portfolio h2 {
+    color: black;
+    font-weight: lighter;
+
+}
+
+.nav_portfolio a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav_portfolio a:hover {
+    border: solid;
+    color: #4bcaff;
+    border-width: 1.5px;
+}
+
+.nav_portfolio ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* FIN PORTFOLIO */
+
+/* FEATURES */
+
+.container_features {
+    height: 300px;
+    width: 68%;
+    padding-top: 50px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container_features h2 {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+
+.features_background {
+    background-color: #515f67;
+}
+
+.features_desc p {
+    color: white;
+    font-size: 12px;
+    width: 390px;
+    padding-bottom: 15px;
+}
+
+.img_vimeo {
+    width: 70%;
+    height: 70%;
+    margin-left: 50%;
+    margin-top: 25px;
+}
+
+.boutton_visitme {
+    text-decoration: none;
+    border: solid;
+    color: #353f46;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 2px;
+}
+
+.boutton_visitme:hover {
+    color: #4bcaff;
+}
+
+/* FIN FEATURES */
+
+/* TWITTER */
+
+.twitter_background {
+    background-color: #4bcaff;
+
+}
+
+.twitter_container {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.twitter_title {
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+
+.twitter_container p {
+    font-size: 25px;
+}
+
+/* FIN TWITTER */
+
+/* WHO IS */
+
+.whois_background {
+    background: url(media/section-whois.png);
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.whois_container {
+    display: flex;
+    width: 68%;
+    margin: auto;
+    color: white;
+}
+
+.whois_container p {
+    font-size: 12px;
+}
+
+.whois_1 {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.whois_2 {
+    margin-top: 107px;
+    padding-left: 12px;
+    width: 500px;
+}
+
+.titre_whois {
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+i {
+    font-size: 50px;
+    padding: 12px;
+}
+/* FIN WHO IS */
+
+/* TESTIMONIALS */
+
+.container_testimonials {
+    width: 68%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container_testimonials h2 {
+    padding-bottom: 12px;
+    font-weight: lighter;
+}
+
+.container_testimonials p {
+    font-size: 25px;
+}
+
+.container_testimonials span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* FIN TESTIMONIALS */
+
+/* CONTACT */
+
+.contact_background {
+    background: url(media/section-contact.png);
+    width: 100%;
+    height: 800px;
+}
+
+.container_form {
+    width: 68%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.container_form h2 {
+    padding-bottom: 12px;
+    font-weight: lighter;
+    color: white;
+}
+
+.container_formflex {
+    display: flex;
+}
+
+.contact_1 {
+    width: 500px;
+}
+
+.contact_1 input {
+    width: 400px;
+    height: 50px;
+}
+
+.contact_2 {
+    width: 500px;
+    padding-top: 25px;
+}
+
+input {
+    background-color: transparent;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.white_form {
+    color: white;
+    font-weight: bold;
+}
+
+.white_form_email {
+    color: white;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.white_form_message {
+    color: white;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.white_form_message textarea {
+    width: 100%;
+    height: 250px;
+}
+.contact_2 p {
+    color: white;
+    font-size: 12px;
+}
+
+.button {
+    margin-top: 12px;
+    background-color: #4bcaff;
+    border: none;
+    width: 20%;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* FIN CONTACT */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #353f47;
+}
+
+footer a {
+    color: #4b5860;
+    text-decoration: none;
+    padding-right: 12px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding-right: 50%;
+}
+
+.footer {
+    width: 68%;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright {
+    color: #4b5860;
+    padding-left: 150px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+} 
+
+/* FIN FOOFTER */
